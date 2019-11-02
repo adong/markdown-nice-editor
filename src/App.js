@@ -8,7 +8,6 @@ function App() {
   return (
     <MarkdownNice
       defaultTitle={defaultTitle}
-      ref={(a) => {console.log(a);a.test();}}
     />
   );
 }

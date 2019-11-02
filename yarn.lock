@@ -1385,7 +1385,7 @@
     lodash.unescape "4.0.1"
     semver "^6.3.0"
 
-"@uiw/react-codemirror@^1.0.19":
+"@uiw/react-codemirror@^1.0.28":
   version "1.0.28"
   resolved "https://registry.yarnpkg.com/@uiw/react-codemirror/-/react-codemirror-1.0.28.tgz#5a7430c7350f1854cfa2f7d1ec9e3a29ea835b1c"
   integrity sha512-jRXBcrEwGe2Iv1LpCEwmkSRzEHmJroFCPGgV39fsgd8CBZ1XsxeyE3u43hzj5q3WQNuWxO0Y0gR59U+JSUpJpw==
@@ -6829,12 +6829,12 @@ markdown-it@^8.4.2:
     mdurl "^1.0.1"
     uc.micro "^1.0.5"
 
-markdown-nice@^0.0.10:
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/markdown-nice/-/markdown-nice-0.0.10.tgz#a83e1f5b0990cbf9d0de6c5d10b0e5f2e98cf95e"
-  integrity sha512-phLhnscHkPppRAPl3CXvEfSNHIkQsX5SHuF4j0cB2JNqQwSHR0rQccNbuLDfl+v1kMbeqjmsgX75vCWtbj1owA==
+markdown-nice@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/markdown-nice/-/markdown-nice-0.1.2.tgz#5e73e2b002940444b1708255f866433e3d744e95"
+  integrity sha512-kVNi7NUiUuvlEEfrg87EBT6ZJqZu0wrPM2+UfLkmYyGHapDNKkueXh9k8Ti+4VJEHOOJoIhTmtBtmfg0eOnTjg==
   dependencies:
-    "@uiw/react-codemirror" "^1.0.19"
+    "@uiw/react-codemirror" "^1.0.28"
     ali-oss "^6.1.1"
     antd "^3.15.1"
     axios "^0.18.0"
