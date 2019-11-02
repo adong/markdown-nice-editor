@@ -16,5 +16,6 @@ jobs:
         command_timeout: 5m
         script: |
           cd /home/mdnice/markdown-nice-editor
+          git pull origin master
           yarn
           yarn build
