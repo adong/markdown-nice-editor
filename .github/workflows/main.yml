@@ -13,6 +13,7 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
+        command_timeout: 5m
         script: |
           cd /home/mdnice/markdown-nice-editor
           yarn
