@@ -6803,16 +6803,6 @@ markdown-it-ruby@^0.1.1:
   resolved "https://registry.yarnpkg.com/markdown-it-ruby/-/markdown-it-ruby-0.1.1.tgz#6e2050a9b2c3275afc2844920d53cdffbbe12f78"
   integrity sha1-biBQqbLDJ1r8KESSDVPN/7vhL3g=
 
-markdown-it-sub@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/markdown-it-sub/-/markdown-it-sub-1.0.0.tgz#375fd6026eae7ddcb012497f6411195ea1e3afe8"
-  integrity sha1-N1/WAm6ufdywEkl/ZBEZXqHjr+g=
-
-markdown-it-sup@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/markdown-it-sup/-/markdown-it-sup-1.0.0.tgz#cb9c9ff91a5255ac08f3fd3d63286e15df0a1fc3"
-  integrity sha1-y5yf+RpSVawI8/09YyhuFd8KH8M=
-
 markdown-it-table-of-contents@^0.4.4:
   version "0.4.4"
   resolved "https://registry.yarnpkg.com/markdown-it-table-of-contents/-/markdown-it-table-of-contents-0.4.4.tgz#3dc7ce8b8fc17e5981c77cc398d1782319f37fbc"
@@ -6829,10 +6819,10 @@ markdown-it@^8.4.2:
     mdurl "^1.0.1"
     uc.micro "^1.0.5"
 
-markdown-nice@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/markdown-nice/-/markdown-nice-0.1.2.tgz#5e73e2b002940444b1708255f866433e3d744e95"
-  integrity sha512-kVNi7NUiUuvlEEfrg87EBT6ZJqZu0wrPM2+UfLkmYyGHapDNKkueXh9k8Ti+4VJEHOOJoIhTmtBtmfg0eOnTjg==
+markdown-nice@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/markdown-nice/-/markdown-nice-0.1.5.tgz#f0c497600d275c2c7a1580979124ebfa800331d6"
+  integrity sha512-el80ny74TwrdBYD3xvw5jXImZBG7kTSVtTIkm/qsMreKEOCCmXQWL8r2L5P1zRrD3fv0tp4VhGDyD7TSA8U3Fw==
   dependencies:
     "@uiw/react-codemirror" "^1.0.28"
     ali-oss "^6.1.1"
@@ -6846,8 +6836,6 @@ markdown-nice@^0.1.2:
     markdown-it-implicit-figures "^0.9.0"
     markdown-it-katex "^2.0.3"
     markdown-it-ruby "^0.1.1"
-    markdown-it-sub "^1.0.0"
-    markdown-it-sup "^1.0.0"
     markdown-it-table-of-contents "^0.4.4"
     mathjax "^3.0.0"
     mobx "^5.9.0"
