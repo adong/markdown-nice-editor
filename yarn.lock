@@ -3775,6 +3775,11 @@ draft-js@^0.10.0, draft-js@~0.10.0:
     immutable "~3.7.4"
     object-assign "^4.1.0"
 
+driver.js@^0.9.8:
+  version "0.9.8"
+  resolved "https://registry.yarnpkg.com/driver.js/-/driver.js-0.9.8.tgz#4b327f4537b1c9b9fb19419de86174be821ae32a"
+  integrity sha512-bczjyKdX6XmFyCDkwtRmlaORDwfBk1xXmRO0CAe5VwNQTM98aWaG2LAIiIdTe53iV/B7W5lXlIy2xYtf0JRb7Q==
+
 duplexer@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/duplexer/-/duplexer-0.1.1.tgz#ace6ff808c1ce66b57d1ebf97977acb02334cfc1"
@@ -6819,10 +6824,10 @@ markdown-it@^8.4.2:
     mdurl "^1.0.1"
     uc.micro "^1.0.5"
 
-markdown-nice@^0.1.5:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/markdown-nice/-/markdown-nice-0.1.5.tgz#f0c497600d275c2c7a1580979124ebfa800331d6"
-  integrity sha512-el80ny74TwrdBYD3xvw5jXImZBG7kTSVtTIkm/qsMreKEOCCmXQWL8r2L5P1zRrD3fv0tp4VhGDyD7TSA8U3Fw==
+markdown-nice@^0.1.7:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/markdown-nice/-/markdown-nice-0.1.7.tgz#1035bc717ea62524b2d43806849cbb59a9cdc465"
+  integrity sha512-ZekZSnNxr/ooxSPszbHtCNFhfAi91D9w8JJtN76v3uPL7dGMgSfu1c2JCZuIzTQi6HN7mSe2S7/qJvy2YFnUWw==
   dependencies:
     "@uiw/react-codemirror" "^1.0.28"
     ali-oss "^6.1.1"
