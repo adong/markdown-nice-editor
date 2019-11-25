@@ -7,6 +7,13 @@ export const GUIDE_STEPS = [
     }
   },
   {
+    element: ".nice-btn-setting",
+    popover: {
+      title: "设置按钮",
+      description: "包含一些功能选项的开关"
+    }
+  },
+  {
     element: ".nice-btn-image",
     popover: {
       title: "上传图片",
