@@ -26,7 +26,15 @@ class App extends React.Component {
     }
   }
   render() {
-    return <MarkdownNice defaultTitle={defaultTitle} />;
+    return (
+      <MarkdownNice
+        defaultTitle={defaultTitle}
+        useImageHosting={{
+          url: "https://math.mdnice.com/qiniuFree",
+          name: "mdnice"
+        }}
+      />
+    );
   }
 }
 
