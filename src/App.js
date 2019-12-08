@@ -30,8 +30,8 @@ class App extends React.Component {
       <MarkdownNice
         defaultTitle={defaultTitle}
         useImageHosting={{
-          url: "https://math.mdnice.com/qiniuFree",
-          name: "mdnice"
+          url: "https://imgkr.com/api/files/upload",
+          name: "图壳"
         }}
       />
     );
