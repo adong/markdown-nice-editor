@@ -6824,10 +6824,10 @@ markdown-it@^8.4.2:
     mdurl "^1.0.1"
     uc.micro "^1.0.5"
 
-markdown-nice@^0.1.9:
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/markdown-nice/-/markdown-nice-0.1.9.tgz#0b6113a4d21c11748b6a04dce079d440eb585b15"
-  integrity sha512-/41q4PSs292lkd4hM+qO2BE31JVlVtQKvC6aYj7hgxhr8WprAHWhGZ+WDCCJD04wlEpEPNtE4TllZBgOek8sIQ==
+markdown-nice@^1.4.7:
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/markdown-nice/-/markdown-nice-1.4.7.tgz#3aa7e2164cc548939d2529ec8c849d3347bc2c0b"
+  integrity sha512-ZLXpLDeBR1gaK0aJsI2X+N+JyYPJDT/9yV+wKPu4uMkZVw4AL3ja0KoLrqZbiY4TXc0gsJ4Cw2rrSf5yekRRpQ==
   dependencies:
     "@uiw/react-codemirror" "^1.0.28"
     ali-oss "^6.1.1"
