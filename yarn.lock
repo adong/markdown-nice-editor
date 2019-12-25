@@ -3593,6 +3593,11 @@ diff-sequences@^24.9.0:
   resolved "https://registry.yarnpkg.com/diff-sequences/-/diff-sequences-24.9.0.tgz#5715d6244e2aa65f48bba0bc972db0b0b11e95b5"
   integrity sha512-Dj6Wk3tWyTE+Fo1rW8v0Xhwk80um6yFYKbuAxc9c3EZxIHFDYwbi34Uk42u1CdnIiVorvt4RmlSDjIPyzGC2ew==
 
+diff_match_patch@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/diff_match_patch/-/diff_match_patch-0.1.1.tgz#d3f14d5b76fb4b5a9cf44706261dadb5bd97edbc"
+  integrity sha1-0/FNW3b7S1qc9EcGJh2ttb2X7bw=
+
 diffie-hellman@^5.0.0:
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/diffie-hellman/-/diffie-hellman-5.0.3.tgz#40e8ee98f55a2149607146921c63e1ae5f3d2875"
@@ -6824,17 +6829,19 @@ markdown-it@^8.4.2:
     mdurl "^1.0.1"
     uc.micro "^1.0.5"
 
-markdown-nice@^1.4.7:
-  version "1.4.7"
-  resolved "https://registry.yarnpkg.com/markdown-nice/-/markdown-nice-1.4.7.tgz#3aa7e2164cc548939d2529ec8c849d3347bc2c0b"
-  integrity sha512-ZLXpLDeBR1gaK0aJsI2X+N+JyYPJDT/9yV+wKPu4uMkZVw4AL3ja0KoLrqZbiY4TXc0gsJ4Cw2rrSf5yekRRpQ==
+markdown-nice@^1.4.8:
+  version "1.4.8"
+  resolved "https://registry.yarnpkg.com/markdown-nice/-/markdown-nice-1.4.8.tgz#452131869605787eacbf8fff9c6d995ff8db1a29"
+  integrity sha512-6Jvs8e6AWEWBNQRqPZmUzgNtFQ3xCuT2vPLlR5F4cNhQJSFzGphTziTdTvch+mGZRrU2UQvvXMJVk1/WjASqNg==
   dependencies:
     "@uiw/react-codemirror" "^1.0.28"
     ali-oss "^6.1.1"
     antd "^3.15.1"
     axios "^0.18.0"
+    diff_match_patch "^0.1.1"
     highlight.js "^9.15.6"
     juice "^5.2.0"
+    lodash.debounce "^4.0.8"
     markdown-it "^8.4.2"
     markdown-it-deflist "^2.0.3"
     markdown-it-footnote "^3.0.1"
