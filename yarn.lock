@@ -3588,15 +3588,15 @@ detect-port-alt@1.1.6:
     address "^1.0.1"
     debug "^2.6.0"
 
+diff-match-patch@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.npmjs.org/diff-match-patch/-/diff-match-patch-1.0.4.tgz#6ac4b55237463761c4daf0dc603eb869124744b1"
+  integrity sha512-Uv3SW8bmH9nAtHKaKSanOQmj2DnlH65fUpcrMdfdaOxUG02QQ4YGZ8AE7kKOMisF7UqvOlGKVYWRvezdncW9lg==
+
 diff-sequences@^24.9.0:
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/diff-sequences/-/diff-sequences-24.9.0.tgz#5715d6244e2aa65f48bba0bc972db0b0b11e95b5"
   integrity sha512-Dj6Wk3tWyTE+Fo1rW8v0Xhwk80um6yFYKbuAxc9c3EZxIHFDYwbi34Uk42u1CdnIiVorvt4RmlSDjIPyzGC2ew==
-
-diff_match_patch@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/diff_match_patch/-/diff_match_patch-0.1.1.tgz#d3f14d5b76fb4b5a9cf44706261dadb5bd97edbc"
-  integrity sha1-0/FNW3b7S1qc9EcGJh2ttb2X7bw=
 
 diffie-hellman@^5.0.0:
   version "5.0.3"
@@ -6829,16 +6829,16 @@ markdown-it@^8.4.2:
     mdurl "^1.0.1"
     uc.micro "^1.0.5"
 
-markdown-nice@^1.4.9:
-  version "1.4.9"
-  resolved "https://registry.yarnpkg.com/markdown-nice/-/markdown-nice-1.4.9.tgz#599e475d7da69b37866e82ed96ab758c8e12793e"
-  integrity sha512-EM9iiCap6VGndMV9qVMzcF0bN7G9tfXk0m7oV2qbFXzYSedZC+FGam9gGTCnaKlYp6MPjd8VFwquHcZcpm6XKg==
+markdown-nice@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.npmjs.org/markdown-nice/-/markdown-nice-1.5.0.tgz#54053ba61114b8c40d5b22ad55d9a3186a559254"
+  integrity sha512-jkYoZGnOwW4jVBDj7ecvon2hfjEaYXGvgR/2SwOBmY7blqRfn0Lqm4up6ucsfsXUYQoHyDVufyUzJosGtSkqHw==
   dependencies:
     "@uiw/react-codemirror" "^1.0.28"
     ali-oss "^6.1.1"
     antd "^3.15.1"
     axios "^0.18.0"
-    diff_match_patch "^0.1.1"
+    diff-match-patch "^1.0.4"
     highlight.js "^9.15.6"
     juice "^5.2.0"
     lodash.debounce "^4.0.8"
