@@ -1,73 +1,26 @@
 export const GUIDE_STEPS = [
   {
-    element: ".nice-left-nav",
+    element: ".nice-navbar",
     popover: {
-      title: "功能按钮",
-      description: "包含编辑功能和特殊功能"
+      title: "导航栏",
+      description: "包含编辑功能和特殊功能",
+      position: "bottom-center"
     }
   },
   {
-    element: ".nice-btn-setting",
+    element: ".nice-btn-wechat",
     popover: {
-      title: "设置按钮",
-      description: "包含一些功能选项的开关"
+      title: "复制到公众号",
+      description: "点击后粘贴到微信公众号中即可",
+      position: "left"
     }
   },
   {
-    element: ".nice-btn-image",
+    element: ".nice-btn-zhihu",
     popover: {
-      title: "上传图片",
-      description: "包含 mdnice、SM.MS、七牛云和阿里云四种图床"
-    }
-  },
-  {
-    element: ".nice-btn-fullscreen",
-    popover: {
-      title: "全屏编辑",
-      description: "仅保留 markdown 编辑器，提供沉浸式创作体验"
-    }
-  },
-  {
-    element: ".nice-btn-reset",
-    popover: {
-      title: "重置",
-      description: "查看原始说明文档"
-    }
-  },
-  {
-    element: ".nice-btn-about",
-    popover: {
-      title: "关于",
-      description: "反馈问题、查看更新历史和加入用户群"
-    }
-  },
-  {
-    element: ".nice-btn-copy",
-    popover: {
-      title: "复制",
-      description: "复制富文本，可放入公众号、知乎专栏等"
-    }
-  },
-  {
-    element: ".nice-themeselect-md-menu",
-    popover: {
-      title: "主题",
-      description: "提供丰富主题供用户使用"
-    }
-  },
-  {
-    element: ".nice-themeselect-code-menu",
-    popover: {
-      title: "代码主题",
-      description: "提供多种代码主题供用户使用"
-    }
-  },
-  {
-    element: ".nice-btn-format",
-    popover: {
-      title: "格式化",
-      description: "规范 markdown 文本，外链转脚注",
-      position: "bottom-right"
+      title: "复制到知乎",
+      description: "点击后粘贴到知乎中即可",
+      position: "left"
     }
   },
   {
@@ -75,7 +28,7 @@ export const GUIDE_STEPS = [
     popover: {
       title: "预览模式",
       description: "包含移动端预览和 PC 端预览",
-      position: "bottom-right"
+      position: "left"
     }
   },
   {
