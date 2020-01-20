@@ -11,14 +11,15 @@ jobs:
       - name: executing remote ssh commands using password
         uses: appleboy/ssh-action@master
         with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
+          host: ${{ secrets.HOST_BUILD }}
+          username: ${{ secrets.USERNAME_BUILD }}
+          password: ${{ secrets.PASSWORD_BUILD }}
           port: ${{ secrets.PORT }}
           command_timeout: 5m
           script: |
-            cd /home/mdnice/markdown-nice-editor
+            cd /root/mdnice/markdown-nice-editor
             git stash
             git pull origin master
             yarn
             yarn build
+            scp -r /root/mdnice/markdown-nice-editor/build mdnice@49.233.93.222:/home/mdnice/markdown-nice-editor/build
