@@ -22,4 +22,4 @@ jobs:
             git pull origin master
             yarn
             yarn build
-            scp -r /root/mdnice/markdown-nice-editor/build mdnice@49.233.93.222:/home/mdnice/markdown-nice-editor/build
+            scp -r /root/mdnice/markdown-nice-editor/build mdnice@49.233.93.222:/home/mdnice/markdown-nice-editor
