@@ -1136,6 +1136,21 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
+"@sitdown/juejin@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@sitdown/juejin/-/juejin-1.0.1.tgz#83ad92a76936f3ca9679ddec375aecae3ce851b2"
+  integrity sha512-d3n6uN26atsPNnfm/I/v8IVXLnMkWav60POxJHaKtK19NaK4BMv3b51b4jnjKSjPnwvTHrTaBaU59xVUwEor1g==
+
+"@sitdown/wechat@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@sitdown/wechat/-/wechat-1.0.1.tgz#b00a2e4966268b4fc68cefac41407af933f4ae15"
+  integrity sha512-gihItazLYRBGxkrhkpxuMU5f9a/mGsEKplqHdnyewUWzSAWm9XuZlyPY1MBcA5Nr4WhZWzkr/l4fxY5HtxTUCA==
+
+"@sitdown/zhihu@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@sitdown/zhihu/-/zhihu-1.0.1.tgz#6e88c9ab4ba279d9341b7566ea2e091002a65b12"
+  integrity sha512-seniWiNp9NQYRH9gOO0dmiJyP1bTZSsJ/xY7VUsvfHO+A5sa4RpD8/gqm+KfNF8saB+sD5WRNEWFNbwcKjdujg==
+
 "@svgr/babel-plugin-add-jsx-attribute@^4.2.0":
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-4.2.0.tgz#dadcb6218503532d6884b210e7f3c502caaa44b1"
@@ -6819,11 +6834,14 @@ markdown-it@^8.4.2:
     mdurl "^1.0.1"
     uc.micro "^1.0.5"
 
-markdown-nice@^1.5.9:
-  version "1.5.9"
-  resolved "https://registry.yarnpkg.com/markdown-nice/-/markdown-nice-1.5.9.tgz#ade5babb5c8cfd2af0e596f7251ab5ecca5f237d"
-  integrity sha512-iUzZpAHlqgNIKjuvY7w5xilPPMeAyvd44KJqx/rGCLrudK0VD5bFe/yOKRERd9CLCamPoQJQr2M9g+CuQ/Vz4Q==
+markdown-nice@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/markdown-nice/-/markdown-nice-1.6.0.tgz#a12a8a8223eb54ee9ddc5c5ce9f002c3d5a4d10c"
+  integrity sha512-syeOSOUSQakqgaLWhVYbpNt2zxZuZPjv1oTBEAV6GZPg0H090nTAqQca/R1ir75hTVVu1UAEtXiLVe+aDLMmhA==
   dependencies:
+    "@sitdown/juejin" "^1.0.1"
+    "@sitdown/wechat" "^1.0.1"
+    "@sitdown/zhihu" "^1.0.1"
     "@uiw/react-codemirror" "^1.0.28"
     ali-oss "^6.1.1"
     antd "^3.15.1"
@@ -6847,6 +6865,8 @@ markdown-nice@^1.5.9:
     react "16.10.2"
     react-dom "16.10.2"
     react-helmet "^5.2.1"
+    sitdown "^1.0.1"
+    turndown-plugin-gfm "^1.0.2"
 
 match-at@^0.1.0:
   version "0.1.1"
@@ -10295,6 +10315,11 @@ sisteransi@^1.0.3:
   resolved "https://registry.yarnpkg.com/sisteransi/-/sisteransi-1.0.3.tgz#98168d62b79e3a5e758e27ae63c4a053d748f4eb"
   integrity sha512-SbEG75TzH8G7eVXFSN5f9EExILKfly7SUvVY5DhhYLvfhKqhDFY0OzevWa/zwak0RLRfWS5AvfMWpd9gJvr5Yg==
 
+sitdown@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/sitdown/-/sitdown-1.0.1.tgz#1a4b944304ee2736848ab899b03dc1a940418e00"
+  integrity sha512-pQoaMMAygsUvziTZDe6iEU5T4tRUF7E9SzLGP34k6bPJuzKrhXmI9uBqCo7LWe3YmRPjOvvmU8kRwsZ+qNF4xA==
+
 slash@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
@@ -11065,6 +11090,11 @@ tunnel-agent@^0.6.0:
   integrity sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0=
   dependencies:
     safe-buffer "^5.0.1"
+
+turndown-plugin-gfm@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/turndown-plugin-gfm/-/turndown-plugin-gfm-1.0.2.tgz#6f8678a361f35220b2bdf5619e6049add75bf1c7"
+  integrity sha512-vwz9tfvF7XN/jE0dGoBei3FXWuvll78ohzCZQuOb+ZjWrs3a0XhQVomJEb2Qh4VHTPNRO4GPZh0V7VRbiWwkRg==
 
 tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
