@@ -6834,10 +6834,10 @@ markdown-it@^8.4.2:
     mdurl "^1.0.1"
     uc.micro "^1.0.5"
 
-markdown-nice@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/markdown-nice/-/markdown-nice-1.6.0.tgz#a12a8a8223eb54ee9ddc5c5ce9f002c3d5a4d10c"
-  integrity sha512-syeOSOUSQakqgaLWhVYbpNt2zxZuZPjv1oTBEAV6GZPg0H090nTAqQca/R1ir75hTVVu1UAEtXiLVe+aDLMmhA==
+markdown-nice@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.npmjs.org/markdown-nice/-/markdown-nice-1.6.1.tgz#54ce8f769c609d9969b09dfef137b16b00a3385a"
+  integrity sha512-pcqMhAvna3ZjDAGkprCtZ4iiNJETW4jdo5EhKsxqYRa4qa09znLXdeF6bEfgnrfL0augfz1AUlb9gt72uENPMw==
   dependencies:
     "@sitdown/juejin" "^1.0.1"
     "@sitdown/wechat" "^1.0.1"
@@ -6865,8 +6865,7 @@ markdown-nice@^1.6.0:
     react "16.10.2"
     react-dom "16.10.2"
     react-helmet "^5.2.1"
-    sitdown "^1.0.1"
-    turndown-plugin-gfm "^1.0.2"
+    sitdown "^1.0.2"
 
 match-at@^0.1.0:
   version "0.1.1"
@@ -10315,10 +10314,10 @@ sisteransi@^1.0.3:
   resolved "https://registry.yarnpkg.com/sisteransi/-/sisteransi-1.0.3.tgz#98168d62b79e3a5e758e27ae63c4a053d748f4eb"
   integrity sha512-SbEG75TzH8G7eVXFSN5f9EExILKfly7SUvVY5DhhYLvfhKqhDFY0OzevWa/zwak0RLRfWS5AvfMWpd9gJvr5Yg==
 
-sitdown@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/sitdown/-/sitdown-1.0.1.tgz#1a4b944304ee2736848ab899b03dc1a940418e00"
-  integrity sha512-pQoaMMAygsUvziTZDe6iEU5T4tRUF7E9SzLGP34k6bPJuzKrhXmI9uBqCo7LWe3YmRPjOvvmU8kRwsZ+qNF4xA==
+sitdown@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/sitdown/-/sitdown-1.0.2.tgz#256eef10ad5087086ad67e14df54fac8cb31ea01"
+  integrity sha512-hOTqoiE59wXqVK2NCbo8s/zc6LIECLsRdqtaZG9kppyFWzm+T9Oe8imNz9HIq/Eqg21WI8/+hMT29DcjMu7eQw==
 
 slash@^1.0.0:
   version "1.0.0"
@@ -11090,11 +11089,6 @@ tunnel-agent@^0.6.0:
   integrity sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0=
   dependencies:
     safe-buffer "^5.0.1"
-
-turndown-plugin-gfm@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/turndown-plugin-gfm/-/turndown-plugin-gfm-1.0.2.tgz#6f8678a361f35220b2bdf5619e6049add75bf1c7"
-  integrity sha512-vwz9tfvF7XN/jE0dGoBei3FXWuvll78ohzCZQuOb+ZjWrs3a0XhQVomJEb2Qh4VHTPNRO4GPZh0V7VRbiWwkRg==
 
 tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
