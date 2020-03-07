@@ -24,6 +24,14 @@ export const GUIDE_STEPS = [
     }
   },
   {
+    element: ".nice-btn-juejin",
+    popover: {
+      title: "复制到稀土掘金",
+      description: "点击后粘贴到稀土掘金中即可",
+      position: "left"
+    }
+  },
+  {
     element: ".nice-btn-previewtype",
     popover: {
       title: "预览模式",
